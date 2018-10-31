@@ -1,0 +1,13 @@
+# 연산자
+# 4칙연산
+num1 = 40
+num2 = 3
+print("덧셈 : "+str(num1+num2))
+print("뺄셈 : "+str(num1-num2))
+print("곱셈 : "+str(num1*num2))
+print("나눗셈 : "+str(num1/num2))
+
+print("나머지 : "+str(num1%num2))
+
+# 특별한 산수 연산자
+print("나버지 버림 : "+str(num1 // num2))

@@ -1,0 +1,24 @@
+# 클래스선언
+# 클래스 선언 class라는 키워드로 시작
+# 파이선에 클래스는 필요에 따라 생성하는 선택사항
+class MyClass :
+    
+    # 클래스에는 생성자가있다.
+    def __init__(self):
+        pass # 메서드 이름만 정의하고, 코드가 없을때
+    
+myClass = MyClass()
+
+class Student:
+    
+    def __init__(self,name):
+        self.name = name
+        
+    def print_name(self):
+        print(self.name)
+        
+
+student = Student("철수")
+student.print_name()
+
+print(student.name)

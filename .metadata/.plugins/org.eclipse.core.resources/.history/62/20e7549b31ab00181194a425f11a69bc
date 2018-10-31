@@ -1,0 +1,37 @@
+# 파이썬의 4가지 배열
+# set, 집합
+
+aset = set()                # 빈 집합생성
+aset = {1,2,3,4,5,6,7,8}    # 값을 지정해서 생성
+
+# 특징, 값이 순서대로 저장된다는 보장이 없다.
+for i in aset :
+    print(i)
+    
+# 생성된 set에 값을 추가 할 수 있다.
+aset.add(3)     # 이미 같은 값이 있으면 추가가 되지 않는다.
+print(aset)
+
+aset.update({10,11,12,13,14})   # 여러개의 값을 추가할때 
+print(aset)
+
+# 값의 삭제
+aset.remove(5)      # set에서 10이라는 값을 삭제하라
+print(aset)
+aset.clear()    # 전체삭제
+
+# set은 집합연산자(합집합, 교집합, 차집합)를 이용해서 여러개의 set을 합하거나 하는 일들을 
+# 수행 할 수 있다.
+
+
+# list
+alist = [] # 빈리스트 생성
+alist = [1,2,3,4,5,6,7]     # 값을 지정해서 list 생성
+# 크기(length), 값 등을 매우 자유스럽게 할당, 관리 할 수 있는 배열
+alist = [1,2,3,4,"a","b","c"]   # 숫자와 문자 등 서로 다른 데이터형들이 혼합 될 수 있다.
+
+print(alist[3]) # 3번 값을 표시
+print(alist[3:6])   # slice 3번부터 6번값을 표시
+
+alist1 = alist[:6]
+print(alist1)

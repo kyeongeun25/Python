@@ -1,0 +1,20 @@
+# 파이썬의 4가지 배열
+# set, 집합
+
+aset = set()                # 빈 집합생성
+aset = {1,2,3,4,5,6,7,8}    # 값을 지정해서 생성
+
+# 특징, 값이 순서대로 저장된다는 보장이 없다.
+for i in aset :
+    print(i)
+    
+# 생성된 set에 값을 추가 할 수 있다.
+aset.add(3)     # 이미 같은 값이 있으면 추가가 되지 않는다.
+print(aset)
+
+aset.update({10,11,12,13,14})   # 여러개의 값을 추가할때 
+print(aset)
+
+# 값의 삭제
+aset.remove(5)
+print(aset)

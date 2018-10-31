@@ -1,0 +1,20 @@
+num1 = 0
+
+# 파이선 => 함수지향형
+# 함수를 생성해서, 함수를 호출하는 방식으로 코딩을 수행
+
+def myName():
+    return "대한민국"
+
+def myfunc():
+    a = 3
+    b = 4
+    return a+b
+
+num1 = myfunc()
+print(num1)
+
+for i in range(10) :
+    # print("대한민국")
+    print(myName())
+

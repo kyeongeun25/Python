@@ -1,0 +1,53 @@
+-- VERSION_5
+-- START DISKCACHE_2
+D:\kwon\python\.metadata\.plugins\org.eclipse.core.resources\.projects\py_02\com.python.pydev.analysis\v2_indexcache
+p001.Hello|1535505096069800000|D:\kwon\python\py_02\p001\Hello.py
+p001.배열|1535510188389800000|D:\kwon\python\py_02\p001\배열.py
+p002.함수01|1535518720894800000|D:\kwon\python\py_02\p002\함수01.py
+p001.반복문|1535508377100800000|D:\kwon\python\py_02\p001\반복문.py
+p002.함수02|1535519411656800000|D:\kwon\python\py_02\p002\함수02.py
+p001.키보드|1535510565531800000|D:\kwon\python\py_02\p001\키보드.py
+p001.비교|1535506940091800000|D:\kwon\python\py_02\p001\비교.py
+p001.연산자|1535506998251800000|D:\kwon\python\py_02\p001\연산자.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+16=p001.Hello
+11=D:\kwon\python\py_02\p002\함수01.py
+15=D:\kwon\python\py_02\p001\Hello.py
+2=p001.배열
+3=D:\kwon\python\py_02\p002\함수02.py
+14=p001.비교
+5=D:\kwon\python\py_02\p001\반복문.py
+1=D:\kwon\python\py_02\p001\배열.py
+12=p002.함수01
+6=p001.반복문
+4=p002.함수02
+8=p001.키보드
+9=D:\kwon\python\py_02\p001\연산자.py
+13=D:\kwon\python\py_02\p001\비교.py
+7=D:\kwon\python\py_02\p001\키보드.py
+10=p001.연산자
+-- END DICTIONARY
+-- START TREE 1
+16
+adi|1|adic!1^74#1*19@
+ali|6|alist2!3^15#1*35@alist1!1^36#1*19@alist1!3^1#1*35@alist3!3^24#1*35@alist3!1^41#1*19@alist!1^28#1*19@
+ase|1|aset!1^4#1*19@
+atu|1|atuple!1^56#1*19@
+end|1|end!5^2#1*51@
+i|1|i!5^22#5*51@
+key|1|keyin!7^10#1*67@
+lis|3|list!5^17#1*51@list!9^58#1*83@listAndList!5^33#1*51@
+myf|1|myfunc!11^9#5*98@
+myn|1|myName!11^6#5*98@
+num|10|num1!7^3#1*67@num1!9^3#1*83@num1!13^2#1*115@num1!11^1#1*99@num2!13^13#1*115@num1!15^8#1*131@num2!9^4#1*83@num2!15^9#1*131@num2!7^4#1*67@num2!11^30#1*99@
+sta|1|start!5^1#1*51@
+ste|1|step!5^3#1*51@
+sum|1|sum!15^18#1*131@
+tup|1|tuple!1^65#1*19@
+사칙연|1|사칙연산!3^8#5*34@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

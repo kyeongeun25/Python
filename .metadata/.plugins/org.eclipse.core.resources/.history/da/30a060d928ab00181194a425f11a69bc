@@ -1,0 +1,6 @@
+# 비교(if)의 사용
+num1 = 38
+if(num1 % 2 ==0) :
+    print("짝수")
+else : 
+    print("홀수")

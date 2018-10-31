@@ -1,0 +1,90 @@
+# 파이썬의 4가지 배열
+# set, 집합
+
+aset = set()                # 빈 집합생성
+aset = {1,2,3,4,5,6,7,8}    # 값을 지정해서 생성
+
+# 특징, 값이 순서대로 저장된다는 보장이 없다.
+for i in aset :
+    print(i)
+    
+# 생성된 set에 값을 추가 할 수 있다.
+aset.add(3)     # 이미 같은 값이 있으면 추가가 되지 않는다.
+print(aset)
+
+aset.update({10,11,12,13,14})   # 여러개의 값을 추가할때 
+print(aset)
+
+# 값의 삭제
+aset.remove(5)      # set에서 10이라는 값을 삭제하라
+print(aset)
+aset.clear()    # 전체삭제
+
+# set은 집합연산자(합집합, 교집합, 차집합)를 이용해서 여러개의 set을 합하거나 하는 일들을 
+# 수행 할 수 있다.
+
+
+# list
+alist = [] # 빈리스트 생성
+alist = [1,2,3,4,5,6,7]     # 값을 지정해서 list 생성
+# 크기(length), 값 등을 매우 자유스럽게 할당, 관리 할 수 있는 배열
+alist = [1,2,3,4,"a","b","c"]   # 숫자와 문자 등 서로 다른 데이터형들이 혼합 될 수 있다.
+
+print(alist[3]) # 3번 값을 표시
+print(alist[3:6])   # slice 3번부터 6번값을 표시
+
+alist1 = alist[:6]      # 일부만 추출해서 다른 list로 생성
+print(alist1)
+
+print(alist + alist1)   # list의 병합
+print(alist * 3)        # alist를 3번 반복
+alist3 = alist *3
+print(alist3)
+
+print(alist3.count("A"))    # list중에 대문자A가 몇번 포함되어 있냐?
+#print(alist3.index("A"))    # list중에 대문자A가 최초로 몇번째 위치에 있냐?
+
+aset  = set(alist3) #list를 set으로 변환, 왜? 중복값을 제거한 배열을 얻기 위해서
+print(aset)
+
+
+# 튜플
+# read only형 배열
+# 한번 만들어지면 추가, 삭제, 변경(내용수정)이 안된다.
+# 한번 생성된 배열요소가 변경되어서는 안되는 곳에 사용한다.
+
+atuple = (1,2,3,4,5,6)      # 튜플의 생성
+atuple = (1,)   # 요소가 1개짜리인 튜플, 1개짜리를 생성할때는 반드시 ,로 끝나야된다.
+
+print(atuple * 10)  # 반복표시
+print(atuple + (3,4,5,6,7,8))
+
+atuple += (3,4,5,6,7,8) # 연산자를 이용해서 마치 tuple이 추가된 것처럼 실행하는 트릭
+print(atuple)
+
+tuple = (3,4,5)
+num1, num2, num3 = tuple    # 튜플의 요소를 각각 추출해서 각각의 변수에 할당
+
+
+
+# 사전(Dict)
+# 자바에는 HashMap에 해당
+
+# key : value 형식의 배열
+adic = {"철수":90, "민수":100, "영희":80}
+print(adic["철수"])   # 철수의 값(value)가 얼마냐
+adic["민수"] = 90     # 민수의 값(value)를 90으로 수정
+adic["몽룡"] = 70
+print(adic)
+
+# 1번
+for key in adic :           # for문에 의해서 key값만 추출된다.
+    print(key, adic[key])   # key값과 key에 해당하는 값을 표시
+
+# 2번 키만 추출, 1번과 2번은 같은 코드
+for i in adic.keys() :
+    print(i, adic[i])       # key값과 key에 해당하는 값을 표시
+    
+# 3번 값만 추출
+for v in adic.values() :
+    print(v)
